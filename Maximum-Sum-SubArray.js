@@ -1,4 +1,5 @@
 //  Maximum sum subArray --- 
+//   kadane's Algorithms
 
 let arr = [5,2,-10,3,-1,2,6,-14,-2,1,-1,3];
 
