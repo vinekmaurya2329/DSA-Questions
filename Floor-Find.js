@@ -1,3 +1,5 @@
+//  find floor element 
+
 let arr = [21, 32, 38, 40, 56, 76, 77, 87, 90, 97, 101];
  function floorFind(arr,target){
 let low =0;
