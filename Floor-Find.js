@@ -1,4 +1,4 @@
-//  find floor element 
+//  find floor element by using binary search
 
 let arr = [21, 32, 38, 40, 56, 76, 77, 87, 90, 97, 101];
  function floorFind(arr,target){
