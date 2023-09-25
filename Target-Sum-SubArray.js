@@ -25,7 +25,7 @@ console.log(targetSum(arr,target))
 
 
 
-// brootforce approach 
+// brootforce approach  ---------
 
 function brootforce (arr){
 
