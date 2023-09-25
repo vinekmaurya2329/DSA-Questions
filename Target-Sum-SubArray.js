@@ -1,6 +1,6 @@
 //  target sum subarray --_--_--_--_--_--_--_
 
-let arr = [3,6,1,3,2,4,9];
+let arr = [4,6,1,3,2,4,9];
 let sp = 0;
 let ep = 0;
 let csum =0;
