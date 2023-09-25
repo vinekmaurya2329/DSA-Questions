@@ -22,3 +22,26 @@ while(ep<arr.length){
 return 'element does not exist';
 }
 console.log(targetSum(arr,target))
+
+
+
+// brootforce approach 
+
+function brootforce (arr){
+
+for( let sp=0;sp<arr.length;sp++){
+   for( let ep=sp;ep<arr.length;ep++){
+      for( let i=sp;i<=ep;i++){
+       csum += arr[i];
+       if(csum == target){
+         return [sp,ep]
+       }
+       }
+       csum=0;
+      }
+   }
+return [-1,-1]
+
+}
+
+console.log(brootforce(arr),'-brootforce ')
