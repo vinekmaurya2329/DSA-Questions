@@ -11,7 +11,9 @@ for(let i=0;i<arr.length;i++){
     process.stdout.write('\n')
 
 }
+//  hjrgjkhgjfd
 //  reverse  print 
+//  
 
 for(let i=arr.length-1;i>=0;i--){
     for( let j=arr[0].length-1;j>=0;j--){
