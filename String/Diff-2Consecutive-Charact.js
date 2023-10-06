@@ -11,7 +11,7 @@ while(i<n || j<n){
 
     let accsi1 = arr.charCodeAt(i);
     let accsi2= arr.charCodeAt(j);
-    if (j<n) result.push(accsi2 - accsi1);
+    if (j<n) result.push((accsi2 - accsi1).toString(10));
     i++;
     j= i+1
 }
