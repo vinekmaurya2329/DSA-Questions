@@ -15,4 +15,5 @@ while(i<n || j<n){
     i++;
     j= i+1
 }
+result = result.join('')
 console.log(result)
