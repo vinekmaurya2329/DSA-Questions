@@ -6,4 +6,4 @@ for(i=0;i<arr.length;i++){
         count++;
     }
 }
-console.log( `in this array 10 is ${count} times`)
+console.log( `in this array 10 is ${count} times`);
